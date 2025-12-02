@@ -2,37 +2,103 @@
     "nome_praça": "Pracinha do JK",
     "pontos_bicicleta": [
         {
-            "id": 1, "local": "A", "bicicletas": [
-                {"id": 1, "tipo": "eletrica", "valor": 2.0},
-                {"id": 2, "tipo": "manual", "valor": 1.0},
-                {"id": 3, "tipo": "eletrica", "valor": 2.0},
-                {"id": 4, "tipo": "manual", "valor": 1.0}
+            "id": 1,
+            "local": "A",
+            "bicicletas": [
+                {
+                    "id": 1,
+                    "tipo": "eletrica",
+                    "valor": 2
+                },
+                {
+                    "id": 2,
+                    "tipo": "manual",
+                    "valor": 1
+                },
+                {
+                    "id": 3,
+                    "tipo": "eletrica",
+                    "valor": 2
+                },
+                {
+                    "id": 4,
+                    "tipo": "manual",
+                    "valor": 1
+                }
             ]
         },
         {
-            "id": 2, "local": "B", "bicicletas": [
-                {"id": 5, "tipo": "eletrica", "valor": 2.0},
-                {"id": 6, "tipo": "manual", "valor": 1.0},
-                {"id": 7, "tipo": "eletrica", "valor": 2.0},
-                {"id": 8, "tipo": "manual", "valor": 1.0}
-            ]},
+            "id": 2,
+            "local": "B",
+            "bicicletas": [
+                {
+                    "id": 5,
+                    "tipo": "eletrica",
+                    "valor": 2
+                },
+                {
+                    "id": 6,
+                    "tipo": "manual",
+                    "valor": 1
+                },
+                {
+                    "id": 7,
+                    "tipo": "eletrica",
+                    "valor": 2
+                },
+                {
+                    "id": 8,
+                    "tipo": "manual",
+                    "valor": 1
+                }
+            ]
+        },
         {
-            "id": 3, "local": "C", "bicicletas": [
-                {"id": 9, "tipo": "eletrica", "valor": 2.0},
-                {"id": 10, "tipo": "manual", "valor": 1.0},
-                {"id": 11, "tipo": "eletrica", "valor": 2.0},
-                {"id": 12, "tipo": "manual", "valor": 1.0}
-            ]}
+            "id": 3,
+            "local": "C",
+            "bicicletas": [
+                {
+                    "id": 9,
+                    "tipo": "eletrica",
+                    "valor": 2
+                },
+                {
+                    "id": 10,
+                    "tipo": "manual",
+                    "valor": 1
+                },
+                {
+                    "id": 11,
+                    "tipo": "eletrica",
+                    "valor": 2
+                },
+                {
+                    "id": 12,
+                    "tipo": "manual",
+                    "valor": 1
+                }
+            ]
+        }
     ],
     "usuarios": [
-        {"id": 1, "nome": "biston"},
-        {"id": 2, "nome": "joao"}
+        {
+            "id": 1,
+            "nome": "biston"
+        },
+        {
+            "id": 2,
+            "nome": "Isabela"
+        },
+        {
+            "id": 3,
+            "nome": "Isaque"
+        }
     ],
     "corridas": [
         {
-            "id_usuario": 1, 
-            "id_bicicleta": 1, 
-            "id_ponto_partida": 1, 
+            "id_usuario": 1,
+            "id_bicicleta": 1,
+            "id_ponto_partida": 1,
             "id_ponto_chegada": 2,
             "inicio": "24/11/2025 15:35:00",
             "duracao": "00:04:21"

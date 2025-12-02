@@ -16,28 +16,31 @@ function loadDB() {
     }
 }
 let db = loadDB();
-console.log(db["pontos_bicicleta"][0]["bicicletas"][3]["valor"]) // ex
+// console.log(db["pontos_bicicleta"][0]["bicicletas"][3]["valor"]) // ex
 
 // acessem o nome de primeiro usuario registrado
 // acessem o "inicio" da primeira corrida registrada
 // todas as bicicletas do pronto B
 // tipo da bicicleta id 12
 
+function saveDB(db) {
+    try {
+        fs.writeFileSync("./bd.json", JSON.stringify(db, null, 4), 'utf8');
+        return true;
+    } catch (err) {
+        console.error('Erro ao salvar bd.json:', err.message);
+        return false;
+    }
+}
 
+db["usuarios"][1]["nome"] = "Isabela"; // atualiza
+db["usuarios"].push({"id": 3,"nome": "Isaque"}); //adiciona
+saveDB(db)
 
-
-
-
-// function saveDB(db) {
-//     try {
-//         fs.writeFileSync("./bd.json", JSON.stringify(db, null, 4), 'utf8');
-//         return true;
-//     } catch (err) {
-//         console.error('Erro ao salvar bd.json:', err.message);
-//         return false;
-//     }
-// }
-
+//adcionem uma nova bicicleta eletrica no ponto B
+// alterem todas as bicicletas no ponto A para manual
+// adicionem um novo usuario chamado Roberto
+// adicionem uma nova corrida, com o usuario Roberto
 
 // while (true) {
 //     const escolha = prompt(`
