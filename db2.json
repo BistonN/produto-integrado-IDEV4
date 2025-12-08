@@ -1,0 +1,16 @@
+{
+    "grupos": [
+        {
+            "nome": "Grupo Dahora",
+            "nome_integrantes": ["Mirela", "João", "Isabela"],
+            "praça selecionada": "Praça da Sé",
+            "lista_materiais": ["papael", "cola quente"]
+        },
+        {
+            "nome": "Grupo Dahora",
+            "nome_integrantes": ["Mirela", "João", "Isabela"],
+            "praça selecionada": "Praça da Sé",
+            "lista_materiais": ["papael", "cola quente"]
+        }
+    ]
+}
